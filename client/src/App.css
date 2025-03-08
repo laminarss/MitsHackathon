@@ -1,0 +1,82 @@
+/* File Upload Section */
+.file_upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.EmailChildComponent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.send_mail_component{
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  margin-top:30px;
+  align-items:center;
+}
+/* Upload Button */
+.upload_button {
+  margin-bottom: 20px;
+}
+
+/* Table Container */
+.table-container {
+  max-width: 900px;
+  margin: 20px auto;
+  overflow-y: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-height: 250px; /* Limits table height */
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+/* Table Header */
+thead {
+  background-color: #007bff;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+/* Table Headers */
+th {
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Table Body */
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* Hover Effect */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
